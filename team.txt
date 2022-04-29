@@ -1,6 +1,6 @@
 Team-ADPRS
-A--> Alakh
-D--> Deepak
-P--> Prem
-R--> Rishu
-S--> Shivani
+A--> Alakh(student1)
+D--> Deepak(student2)
+P--> Prem(student3)
+R--> Rishu(student4)
+S--> Shivani(student5)
