@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            box-sizing: border-box;
+        }
+        body
+        {
+            min-height: 100vh;
+            background-image: linear-gradient(120deg, #3498db, #8e44ad);
+            padding: 75px 0px;
+            overflow: auto;
+        }
+        form
+        {
+            display: block;
+            margin-top: 0px;
+        }
+        .login-form
+        {
+            width: 360px;
+            height: 560px;
+            background: #f1f1f1;
+            padding: 80px 40px;
+            border-radius: 10px;
+            position: relative;
+            z-index: 0;
+            margin: 0px auto;
+        }
+        .login-form>h1
+        {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .input1
+        {
+            border-bottom: 2px solid #adadad;
+            position: relative;
+            margin: 32px 0px;
+        }
+        .input1>label
+        {
+            display: none;
+        }
+        .input1>.formdesign1
+        {
+            font-size: 15px;
+            color: #333;
+            width: 100%;
+            border: none;
+            outline: none;
+            background: none;
+            padding: 0px 5px;
+            height: 40px;
+        }
+        .loginbtn
+        {
+            display: block;
+            width: 100%;
+            height: 50px;
+            border: none;
+            background: linear-gradient(120deg, #3498db, #8e44ad, #3498db);
+            background-size: 200%;
+            color: #fff;
+            outline: none;
+            cursor: pointer;
+            transition: 0.5s;
+            font-size: 16px;
+        }
+        .bottom-text 
+        {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 13px;
+        }
+        .bottom-text>.spandesign
+        {
+            display: block;
+            color: #6E6E6E;
+        }
+    </style>
+</head>
+<body>
+    <form class="login-form" action="">
+        <h1>Login</h1>
+        <div class="input1">
+            <label for="">Email</label>
+            <input class="formdesign1" type="text" placeholder="Email">
+        </div>
+        <div class="input1">
+            <label for="">Password</label>
+            <input class="formdesign1" type="password" placeholder="Password">
+        </div>
+        <input class="loginbtn" type="submit" value="Login">
+        <div class="bottom-text">
+            <p class="spandesign">Forgot
+            <a href="#">Password</a>
+            ?</p>
+            <br>
+            <p class="spandesign">Don't have an account?
+            <a href="#">Sign up</a>
+            </p>
+        </div>
+    </form>
+</body>
+</html>
