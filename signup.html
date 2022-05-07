@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #registration{
+            background-color: rgb(96, 235, 235);
+            height: 450px;
+            width: 350px;
+            margin: auto;
+            text-align: center;
+            font-size: 40px;
+            color: white;
+            font-weight: -1;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        p{
+            padding-top: 25px;
+        }
+        .main{
+            height: 80%;
+            width: 90%;
+            /* align-items: center; */
+           margin: auto;
+           border: none;
+            /* margin-top: 20px; */
+        }
+        .values{
+            height: 60px;
+            width: 100%;
+            margin: auto;
+            color: white;
+            border: none;
+            /* margin-top: 20px; */
+        }
+        
+        input{
+            width: 80%;
+            height: 40px;
+            padding-left: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: medium;
+        }
+        .submit{
+            width: 85%;
+            background-color:rgb(14, 175, 122);
+            color: white;
+            border: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .submit:hover{
+            background-color: rgb(21, 190, 134);
+        }
+        .return{
+            width: 85%;
+            background-color:rgb(14, 175, 122);
+            color: white;
+            border: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+        .return:hover{
+            background-color: rgb(21, 190, 134);
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="registration">
+        <p>- Visitor -</p>
+
+    <form action="Submit">
+        <div class="main">
+        <div class="values">
+            <input type="text" placeholder="Full Name">
+        </div>
+        <div class="values">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="values">
+            <input type="text" placeholder="Organization">
+            
+        </div>
+        <div class="values">
+            <input class="submit" type="submit" value="SIGN UP">
+        </div>
+        <div class="values">
+            <input class="return" type="submit" value="RETURN">
+        </div>
+    </form>
+
+        </div>
+        
+        
+    </div>
+
+    
+</body>
+</html>
+<script>
+    document.getElementsByClassName("submit").addEventListener("click",SignupSuccessfull)
+    function SignupSuccessfull(){
+        var Fll_Name=document.getElementsByClassName("values").value;
+        console.log(Full_Name)
+
+    }
+    
+</script>
