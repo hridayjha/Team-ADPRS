@@ -16,7 +16,12 @@
             color: white;
             font-weight: -1;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-radius: 5px;
 
+        }
+        body{
+            min-height: 100vh;
+            background: linear-gradient(120deg, #07676c, #f1e4f6, #37ebcd);
         }
         p{
             padding-top: 25px;
@@ -28,6 +33,7 @@
            margin: auto;
            border: none;
             /* margin-top: 20px; */
+           
         }
         .values{
             height: 60px;
@@ -88,7 +94,7 @@
             
         </div>
         <div class="values">
-            <input class="submit" type="submit" value="SIGN UP">
+            <input class="submit" id="submit1" type="submit" value="SIGN UP">
         </div>
         <div class="values">
             <input class="return" type="submit" value="RETURN">
@@ -106,8 +112,9 @@
 <script>
     document.getElementsByClassName("submit").addEventListener("click",SignupSuccessfull)
     function SignupSuccessfull(){
-        var Fll_Name=document.getElementsByClassName("values").value;
-        console.log(Full_Name)
+        var Return=document.querySelector(".return").value
+        Return. window.location.href="navbar.html";
+       
 
     }
     

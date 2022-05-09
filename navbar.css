@@ -25,3 +25,12 @@ body{
   
     color: white;
 }
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
+#pro{
+    /* border: 1px solid gray; */
+    padding-top: 70px;
+}
